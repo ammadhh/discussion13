@@ -1,0 +1,50 @@
+/*  below Style header and footer with background color of #cad1d8 and fontsize 35px */
+.header, .footer {
+  background-color: #cad1d8;
+  font-size: 35px;
+}
+/* Style all of list items to have a border and be in line */
+li {
+  border: 1px solid black;
+  display: inline;
+}
+/* style list items in the footer to have 100px margin on one side*/
+.footer li {
+  margin: 0 100px;
+}
+.jumper{
+    position: absolute;
+    left: -1000px;
+    background-color: #cad1d8;
+    color: rgb(40,40,240);
+}
+.jumper:focus{
+    left: 1%;
+}
+/* Style all of the divs so that all the divs have a width of 19% centereted text 2px border */
+div {
+  width: 19%;
+  text-align: center;
+  border: 2px solid black;
+  display: inline-block;
+}
+/* WHen you hover over div give it a 20px blue border */
+div:hover {
+  border: 20px solid blue;
+}
+/* .special class should change the ont to cursive and be all capital letters */
+.special {
+  font-family: cursive;
+  text-transform: uppercase;
+}
+/* 2nd 4th 6th and 8th div should have 10px dashed green border, and 50px padding on top / bottom */
+div:nth-child(2n) {
+  border: 10px dashed green;
+  padding: 50px 0;
+}
+/* Last div should not use cursive text use the default text  */
+div:last-child {
+  font-family: sans-serif;
+}
+/* combinator to select the first p element placed immeddialy after div*/
+/* class t */
